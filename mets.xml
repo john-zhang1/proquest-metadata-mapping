@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<mets ID="sort-mets_mets" OBJID="sword-mets" LABEL="DSpace SWORD Item"
+	PROFILE="DSpace METS SIP Profile 1.0" xmlns="http://www.loc.gov/METS/"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd">
+
+	<metsHdr CREATEDATE="2007-09-01T00:00:00">
+		<agent ROLE="CUSTODIAN" TYPE="ORGANIZATION">
+			<name>ETDAdmin, ProQuest</name>
+		</agent>
+	</metsHdr>
+
+	<dmdSec ID="sword-mets-dmd-1" GROUPID="sword-mets-dmd-1_group-1">
+		<mdWrap LABEL="SWAP Metadata" MDTYPE="OTHER" OTHERMDTYPE="EPDCX"
+			MIMETYPE="text/xml">
+			<xmlData>
+				<epdcx:descriptionSet
+					xmlns:epdcx="http://purl.org/eprint/epdcx/2006-11-16/"
+					xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:schemaLocation="http://purl.org/eprint/epdcx/2006-11-16/ http://purl.org/eprint/epdcx/xsd/2006-11-16/epdcx.xsd">
+					<epdcx:description
+						epdcx:resourceId="sword-mets-epdcx-1">
+<epdcx:statement epdcx:propertyURI="http://purl.org/dc/elements/1.1/title">
+	<epdcx:valueString><![CDATA[The Role of Culturally Responsive Practices in Family Engagement and Child Social-Emotional Outcomes in Early Head Start Settings]]></epdcx:valueString>
+</epdcx:statement>
+<epdcx:statement epdcx:propertyURI="http://purl.org/dc/terms/abstract">
+	<epdcx:valueString><![CDATA[Early childhood classrooms have seen a dramatic rise and demographic changes in ethnically, culturally, and linguistically diverse populations. In Early Head Start (EHS) center-based classrooms, at least 67% of EHS families are identified as culturally diverse (Office of Head Start, 2018). It is imperative that EHS teachers understand how to provide developmentally appropriate and culturally responsive and relevant practices for children and their families. Although research regarding culturally responsive practices (CRP) is sparse, this study will examine how CRP implementation influences family engagement practices and child outcomes, specifically focusing on social and emotional outcomes, in EHS infant and toddler classrooms. The analysis of the literature suggests that most research focused on CRP implementation relied heavily on teachers’ self-reporting. However, this study is significant because teachers’ and parents’ perceptions about CRP implementation, family engagement, and child outcomes were explored and analyzed. ]]></epdcx:valueString>
+</epdcx:statement>
+<epdcx:statement epdcx:propertyURI="http://purl.org/dc/elements/1.1/creator">
+	<epdcx:valueString><![CDATA[Thomas, Tonya ]]></epdcx:valueString>
+</epdcx:statement>
+<epdcx:statement epdcx:propertyURI="http://purl.org/dc/elements/1.1/subject">
+	<epdcx:valueString><![CDATA[Early childhood education]]></epdcx:valueString>
+</epdcx:statement>
+<epdcx:statement epdcx:propertyURI="http://purl.org/dc/elements/1.1/advisor">
+	<epdcx:valueString><![CDATA[Kyong-Ah Kwon]]></epdcx:valueString>
+</epdcx:statement>
+<epdcx:statement epdcx:propertyURI="http://purl.org/eprint/terms/isExpressedAs" epdcx:valueRef="sword-mets-expr-1" />
+</epdcx:description>
+<epdcx:description epdcx:resourceId="sword-mets-expr-1"><epdcx:statement epdcx:propertyURI="http://purl.org/dc/elements/1.1/type" epdcx:valueURI="http://purl.org/eprint/entityType/Expression"/>
+<epdcx:statement epdcx:propertyURI="http://purl.org/dc/elements/1.1/language" epdcx:vesURI="http://purl.org/dc/terms/RFC3066">
+	<epdcx:valueString><![CDATA[en]]></epdcx:valueString>
+</epdcx:statement>
+<epdcx:statement epdcx:propertyURI="http://purl.org/dc/elements/1.1/type" epdcx:vesURI="http://purl.org/eprint/terms/Type" epdcx:valueURI="http://purl.org/eprint/entityType/Expression" /></epdcx:description>
+</epdcx:descriptionSet>
+</xmlData>
+</mdWrap>
+</dmdSec>
+  <dmdSec ID="sword-mets-dmd-2" GROUPID="sword-mets-dmd-1_group-1">
+    <mdWrap LABEL="ProQuest Metadata" MDTYPE="OTHER" OTHERMDTYPE="PROQUEST" MIMETYPE="text/xml">
+      <xmlData>
+<DISS_submission publishing_option="0" embargo_code="0" third_party_search="Y" xmlns="http://www.etdadmin.com/ns/etdsword">
+  <DISS_authorship>
+    <DISS_author type="primary">
+      <DISS_name>
+        <DISS_surname>Thomas</DISS_surname>
+        <DISS_fname>Tonya</DISS_fname>
+        <DISS_middle/>
+        <DISS_suffix/>
+      </DISS_name>
+      <DISS_contact type="future">
+        <DISS_contact_effdt>12/16/2024</DISS_contact_effdt>
+        <DISS_address>
+          <DISS_addrline>4624 Westborough Drive</DISS_addrline>
+          <DISS_city>Chesapeake</DISS_city>
+          <DISS_st>VA</DISS_st>
+          <DISS_pcode>23321</DISS_pcode>
+          <DISS_country>US</DISS_country>
+        </DISS_address>
+        <DISS_email>tonya.l.thomas-1@ou.edu</DISS_email>
+        <DISS_school_email>tonya.l.thomas-1@ou.edu</DISS_school_email>
+      </DISS_contact>
+      <DISS_citizenship/>
+      <DISS_orcid/>
+    </DISS_author>
+  </DISS_authorship>
+  <DISS_description page_count="124" type="doctoral" external_id="http://dissertations.umi.com/oklahoma:10114" apply_for_copyright="no">
+    <DISS_title>The Role of Culturally Responsive Practices in Family Engagement and Child Social-Emotional Outcomes in Early Head Start Settings</DISS_title>
+    <DISS_identifiers>
+      <pubNumber>31766479</pubNumber>
+      <docId>3161589418</docId>
+      <isbn/>
+    </DISS_identifiers>
+    <DISS_dates>
+      <DISS_comp_date>2024</DISS_comp_date>
+      <DISS_accept_date>01/01/2024</DISS_accept_date>
+    </DISS_dates>
+    <DISS_degree>D.Phil.</DISS_degree>
+    <DISS_institution>
+      <DISS_inst_code>2409</DISS_inst_code>
+      <DISS_inst_name>University of Oklahoma – Graduate College</DISS_inst_name>
+      <DISS_inst_contact>Instr Leadership and Acad Curr: Education</DISS_inst_contact>
+      <DISS_processing_code>A</DISS_processing_code>
+    </DISS_institution>
+    <DISS_advisor>
+      <DISS_name>
+        <DISS_surname>Kwon</DISS_surname>
+        <DISS_fname>Kyong-Ah</DISS_fname>
+        <DISS_middle/>
+      </DISS_name>
+    </DISS_advisor>
+    <DISS_cmte_member>
+      <DISS_name>
+        <DISS_surname>Ford</DISS_surname>
+        <DISS_fname>Timothy</DISS_fname>
+        <DISS_middle/>
+        <DISS_suffix/>
+      </DISS_name>
+    </DISS_cmte_member>
+    <DISS_cmte_member>
+      <DISS_name>
+        <DISS_surname>Ethridge</DISS_surname>
+        <DISS_fname>Libby</DISS_fname>
+        <DISS_middle/>
+        <DISS_suffix/>
+      </DISS_name>
+    </DISS_cmte_member>
+    <DISS_cmte_member>
+      <DISS_name>
+        <DISS_surname>Lake</DISS_surname>
+        <DISS_fname>Vickie</DISS_fname>
+        <DISS_middle/>
+        <DISS_suffix/>
+      </DISS_name>
+    </DISS_cmte_member>
+    <DISS_cmte_member>
+      <DISS_name>
+        <DISS_surname>Horm</DISS_surname>
+        <DISS_fname>Diane</DISS_fname>
+        <DISS_middle/>
+        <DISS_suffix/>
+      </DISS_name>
+    </DISS_cmte_member>
+    <DISS_categorization>
+      <DISS_category>
+        <DISS_cat_code>0518</DISS_cat_code>
+        <DISS_cat_desc>Early childhood education</DISS_cat_desc>
+      </DISS_category>
+      <DISS_keyword>Early Childhood Education, Multicultural Education, Teacher Education</DISS_keyword>
+      <DISS_language>en</DISS_language>
+    </DISS_categorization>
+  </DISS_description>
+  <DISS_content>
+    <DISS_abstract>
+      <DISS_para>Early childhood classrooms have seen a dramatic rise and demographic changes in ethnically, culturally, and linguistically diverse populations. In Early Head Start (EHS) center-based classrooms, at least 67% of EHS families are identified as culturally diverse (Office of Head Start, 2018). It is imperative that EHS teachers understand how to provide developmentally appropriate and culturally responsive and relevant practices for children and their families. Although research regarding culturally responsive practices (CRP) is sparse, this study will examine how CRP implementation influences family engagement practices and child outcomes, specifically focusing on social and emotional outcomes, in EHS infant and toddler classrooms. The analysis of the literature suggests that most research focused on CRP implementation relied heavily on teachers’ self-reporting. However, this study is significant because teachers’ and parents’ perceptions about CRP implementation, family engagement, and child outcomes were explored and analyzed. </DISS_para>
+    </DISS_abstract>
+    <DISS_binary type="PDF">Thomas_oklahoma_2409A_10114.pdf</DISS_binary>
+  </DISS_content>
+  <DISS_restriction/>
+  <DISS_repository>
+    <DISS_version>2024-10-09 12:26:14</DISS_version>
+    <DISS_agreement_decision_date>2024-12-16 23:35:38</DISS_agreement_decision_date>
+    <DISS_acceptance>1</DISS_acceptance>
+    <DISS_delayed_release/>
+    <DISS_access_option/>
+  </DISS_repository>
+  <DISS_creative_commons_license>
+    <DISS_abbreviation/>
+  </DISS_creative_commons_license>
+</DISS_submission>
+
+      </xmlData>
+    </mdWrap>
+  </dmdSec>
+	<fileSec>
+		<fileGrp ID="sword-mets-fgrp-1" USE="CONTENT">
+			<file GROUPID="sword-mets-fgid-0" ID="sword-mets-file-1" MIMETYPE="application/pdf">
+				<FLocat LOCTYPE="URL" xlink:href="Thomas_oklahoma_2409A_10114.pdf" />
+			</file>
+		</fileGrp>
+	</fileSec>
+	<structMap ID="sword-mets-struct-1" LABEL="structure" TYPE="LOGICAL">
+		<div ID="sword-mets-div-1" DMDID="sword-mets-dmd-1 sword-mets-dmd-2" TYPE="SWORD Object">
+			<div ID="sword-mets-div-2" TYPE="File">
+				<fptr FILEID="sword-mets-file-1" />
+			</div>
+		</div>
+	</structMap>
+</mets>
