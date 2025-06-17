@@ -135,10 +135,28 @@ public class DSpaceMETSIngester
                 }
             }
         } else {
-            // otherwise take the first.  Don't xwalk more than one because
-            // each xwalk _adds_ metadata, and could add duplicate fields.
+            boolean isFromProquest = false;
+            int proquestIndex = -1;
+
+            // Check if any element has PROQUEST mdType
+            for (int i = 0; i < dmds.length; i++) {
+                try {
+                    proquestIndex = i;
+                    String mdType = manifest.getMdType(dmds[i]);
+                    if ("PROQUEST".equalsIgnoreCase(mdType)) {
+                        isFromProquest = true;
+                        break;
+                    }
+                } catch (Exception e) {
+                    System.out.println("Error processing dmdSec ID: " + dmds[i].getAttributeValue("ID", "[no ID]") + e.toString());
+                }
+            }
+
+            // Process the appropriate element if we have any
             if (dmds.length > 0) {
-                manifest.crosswalkItemDmd(context, params, dso, dmds[0], callback);
+                // Use the first element if not Proquest, otherwise use the last valid element
+                Element elementToProcess = isFromProquest ? dmds[proquestIndex] : dmds[0];
+                manifest.crosswalkItemDmd(context, params, dso, elementToProcess, callback);
             }
         }
     }
